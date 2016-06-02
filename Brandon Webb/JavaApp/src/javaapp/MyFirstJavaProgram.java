@@ -16,8 +16,10 @@ public class MyFirstJavaProgram {
        // This is a comment
        
        System.out.println(x);
-       javaapp.FreshJuiceTest.main(args);
-       javaapp.BeerSong.main(args);
+       //javaapp.FreshJuiceTest.main(args); This runs the juice program
+       //javaapp.BeerSong.main(args); This runs the Beer program
+       javaapp.CollectionsDemo.main(args);
+      
     }
     
 
