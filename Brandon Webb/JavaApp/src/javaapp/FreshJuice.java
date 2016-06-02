@@ -9,6 +9,8 @@ package javaapp;
  *
  * @author brandonmichaelwebb
  */
-public class MyClass {
+public class FreshJuice {
+    enum FreshJuiceSize{ SMALL, MEDIUM, LARGE }
+    FreshJuiceSize size;
     
 }

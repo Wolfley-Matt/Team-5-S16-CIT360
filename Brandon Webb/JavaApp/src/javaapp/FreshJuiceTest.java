@@ -9,13 +9,12 @@ package javaapp;
  *
  * @author brandonmichaelwebb
  */
-public class JavaApp {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
-    }
-    
+public class FreshJuiceTest {
+   
+   public static void main(String args[]){
+      FreshJuice juice = new FreshJuice();
+      juice.size = FreshJuice.FreshJuiceSize.MEDIUM ;
+      System.out.println("Size: " + juice.size);
+   }
 }
+
