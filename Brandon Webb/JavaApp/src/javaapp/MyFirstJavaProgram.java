@@ -18,7 +18,8 @@ public class MyFirstJavaProgram {
        System.out.println(x);
        //javaapp.FreshJuiceTest.main(args); This runs the juice program
        //javaapp.BeerSong.main(args); This runs the Beer program
-       javaapp.CollectionsDemo.main(args);
+       //javaapp.CollectionsDemo.main(args); This runs the Collections Demo
+       javaapp.Serialization.main(args);
       
     }
     

@@ -5,7 +5,10 @@
  */
 package javaapp;
 import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.net.*;
+import org.json.CDL;
 
 /**
  *
@@ -22,6 +25,12 @@ public class GetJson {
     URL url = new URL(sURL);
     HttpURLConnection request = (HttpURLConnection) url.openConnection();
     request.connect();
+    /** Can't get the JSON Parser to work correctly
     
+    JsonParser jp = new JsonParser();
+    JsonElement root = jp.prase(new InputStreamReader((InputStream) request.getContent()));
+    JsonObject rootojb = root.getAsJsonObject();
+    ip = rootobj.get('ip").getAsString();
+    System.out.println(ip);**/
 }
 }
