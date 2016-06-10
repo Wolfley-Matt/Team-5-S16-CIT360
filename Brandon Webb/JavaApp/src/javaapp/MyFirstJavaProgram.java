@@ -8,19 +8,22 @@ public class MyFirstJavaProgram {
 	
     public static void main(String []args) {
        System.out.println("Hello World"); // prints Hello World
-       int x = 3;
-       String name = "Brandon";
-       x = x * 17;
-       System.out.print("x is " + x);
-       double d = Math.random();
+       //int x = 3;
+       //String name = "Brandon";
+       //x = x * 17;
+       //System.out.print("x is " + x);
+       //double d = Math.random();
        // This is a comment
        
-       System.out.println(x);
+       //System.out.println(x);
+       
+       //All my different classes
        //javaapp.FreshJuiceTest.main(args); This runs the juice program
        //javaapp.BeerSong.main(args); This runs the Beer program
-       //javaapp.CollectionsDemo.main(args); This runs the Collections Demo
-       javaapp.Serialization.main(args);
-      
+       //javaapp.CollectionsDemo.main(args); This runs thee Collections Demo
+       //javaapp.JSONSerialization.main(args);
+       //javaapp.CollectionsArrayList.main(args);
+       //javaapp.CollectionsHashSet.main(args);
     }
     
 

@@ -5,14 +5,6 @@
  */
 package javaapp;
 
-/**
- *
- * @author brandonmichaelwebb
- */
-
-
-
-
 import com.google.gson.Gson;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -21,9 +13,10 @@ import java.io.FileWriter;
 
 /**
  *
- * @author co075oh
+ * @author brandonmichaelwebb
  */
-public class Serialization {
+public class JSONSerialization {
+    
     public static void main (String[] args) {
         
         // Object Declaration
@@ -100,4 +93,6 @@ public class Serialization {
         newIceCream2.displayIceCream();
     }
 }
+
     
+
