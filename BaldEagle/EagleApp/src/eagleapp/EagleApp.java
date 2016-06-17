@@ -10,7 +10,7 @@ package eagleapp;
  * @author Matt
  */
 public class EagleApp {
-/**this is from git
+/**comment test for Brandon
     /**
      * @param args the command line arguments
      */
