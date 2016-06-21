@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package javaapp;
+package serialization;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
@@ -25,12 +25,13 @@ public class GetJson {
     URL url = new URL(sURL);
     HttpURLConnection request = (HttpURLConnection) url.openConnection();
     request.connect();
-    /** Can't get the JSON Parser to work correctly
+    /*Can't get the JSON Parser to work correctly
     
     JsonParser jp = new JsonParser();
     JsonElement root = jp.prase(new InputStreamReader((InputStream) request.getContent()));
     JsonObject rootojb = root.getAsJsonObject();
     ip = rootobj.get('ip").getAsString();
-    System.out.println(ip);**/
+    System.out.println(ip);
+            */
 }
 }

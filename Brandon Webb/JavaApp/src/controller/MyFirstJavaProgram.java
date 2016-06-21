@@ -1,4 +1,4 @@
-package javaapp;
+package controller;
 
 public class MyFirstJavaProgram {
 
@@ -19,11 +19,12 @@ public class MyFirstJavaProgram {
        
        //All my different classes
        //javaapp.FreshJuiceTest.main(args); This runs the juice program
-       javaapp.BeerSong.main(args); //This runs the Beer program
+       //javaapp.BeerSong.main(args); //This runs the Beer program
        //javaapp.CollectionsDemo.main(args); This runs thee Collections Demo
        //javaapp.JSONSerialization.main(args);
        //javaapp.CollectionsArrayList.main(args);
        //javaapp.CollectionsHashSet.main(args);
+       //System.out.println(model.IceCream());
     }
     
 

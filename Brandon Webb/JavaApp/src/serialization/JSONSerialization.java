@@ -1,9 +1,11 @@
+
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package javaapp;
+package serialization;
+
 
 import com.google.gson.Gson;
 import java.io.BufferedReader;
@@ -20,8 +22,8 @@ public class JSONSerialization {
     public static void main (String[] args) {
         
         // Object Declaration
-        IceCream flavor1 = new IceCream();
-        IceCream flavor2 = new IceCream();
+        ice_cream_serialization flavor1 = new ice_cream_serialization();
+        ice_cream_serialization flavor2 = new ice_cream_serialization();
         
         // Declare IceCream 1 Values
         flavor1.setFlavor("Vanilla");
@@ -81,8 +83,8 @@ public class JSONSerialization {
         System.out.println(newData2);
         
         // Deserialize IceCreams
-        IceCream newIceCream1 = icecreamJSON.fromJson(newData1, IceCream.class);
-        IceCream newIceCream2 = icecreamJSON.fromJson(newData2, IceCream.class);
+        ice_cream_serialization newIceCream1 = icecreamJSON.fromJson(newData1, ice_cream_serialization.class);
+        ice_cream_serialization newIceCream2 = icecreamJSON.fromJson(newData2, ice_cream_serialization.class);
         
         // Display IceCream Values
         System.out.println("\n");

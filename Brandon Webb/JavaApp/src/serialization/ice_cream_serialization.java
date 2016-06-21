@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package javaapp;
+package serialization;
 
 import java.io.Serializable;
 
@@ -11,7 +11,7 @@ import java.io.Serializable;
  *
  * @author co075oh
  */
-public class IceCream implements Serializable {
+public class ice_cream_serialization implements Serializable {
     private String flavor;
     private String color;
     private int cost;

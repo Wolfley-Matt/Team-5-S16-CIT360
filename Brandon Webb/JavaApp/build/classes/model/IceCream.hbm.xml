@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Jun 20, 2016 6:03:20 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+  <class catalog="cit360" name="IceCream" optimistic-lock="version" table="ice_cream">
+    <id name="id" type="java.lang.Integer">
+      <column name="id"/>
+      <generator class="identity"/>
+    </id>
+    <property name="flavor" type="string">
+      <column length="10" name="flavor" not-null="true"/>
+    </property>
+    <property name="color" type="string">
+      <column length="10" name="color" not-null="true"/>
+    </property>
+  </class>
+</hibernate-mapping>
