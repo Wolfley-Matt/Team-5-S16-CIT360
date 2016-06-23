@@ -1,3 +1,4 @@
+package eagleapp;
 
 import java.util.Scanner;
 
