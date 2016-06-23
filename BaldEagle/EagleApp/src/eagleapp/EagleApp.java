@@ -11,7 +11,7 @@ import java.util.Scanner;
  *
  * @author Matt Wolfley
  */
-public class menu {
+public class EagleApp {
     public static void main(String[] args) {
         
         
