@@ -1,4 +1,4 @@
-package eagleapp;
+package controller;
 
 import java.util.Scanner;
 
@@ -43,7 +43,7 @@ public class EagleApp {
 
     switch (choice) {
         case 1:
-            // Perform "Report Eagle" case.
+            view.reportEagle.report();
             break;
         case 2:
             // Perform "Find Eagle" case.
