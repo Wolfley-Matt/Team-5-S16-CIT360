@@ -7,8 +7,8 @@ package model;
 
 /**
  *
- * @author Dan Hivley
+ * @author Stevan, Myles
  */
-public class databaseConnection {
+public class hibernate {
     
 }

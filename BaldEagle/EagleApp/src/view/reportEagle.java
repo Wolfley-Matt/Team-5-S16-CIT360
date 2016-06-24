@@ -18,7 +18,7 @@ public class reportEagle {
             System.out.println("What County Are You In?");
             
             //This is where the counties need to be printed out to using deserialization
-            
+                        
             Scanner scanner_1 = new Scanner(System.in); //Waits for User Input
             //If data is not a number reask user
             int county_choice = scanner_1.nextInt(); //Assigns the user input to a variable 

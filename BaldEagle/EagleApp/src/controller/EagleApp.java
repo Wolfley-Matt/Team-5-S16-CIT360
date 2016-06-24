@@ -10,7 +10,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author Matt Wolfley
+ * @author Matt Wolfley & Danny Davis
  */
 public class EagleApp {
     public static void main(String[] args) {

@@ -7,8 +7,8 @@ package model;
 
 /**
  *
- * @author Dan Hivley
+ * @author Rachel Davis
  */
-public class databaseConnection {
+public class httpurlconnection {
     
 }
