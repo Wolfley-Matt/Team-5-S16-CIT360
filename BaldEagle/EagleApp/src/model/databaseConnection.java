@@ -7,7 +7,7 @@ package model;
 
 /**
  *
- * @author Dan Hivley
+ * @author Dan Hively
  */
 public class databaseConnection {
     
