@@ -4,7 +4,7 @@
  "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd"> 
 
 <hibernate-mapping>
-   <class name="findEagle" table="FIND">
+   <class name="findEagleHib" table="FIND">
       <meta attribute="class-description">
          This class contains location of the eagle. 
       </meta>
@@ -16,7 +16,7 @@
 </hibernate-mapping>
 
 <hibernate-mapping>
-   <class name="reportEagle" table="REPORT">
+   <class name="reportEagleHib" table="REPORT">
       <meta attribute="class-description">
          This class contains reports of eagle sighting.
       </meta>
