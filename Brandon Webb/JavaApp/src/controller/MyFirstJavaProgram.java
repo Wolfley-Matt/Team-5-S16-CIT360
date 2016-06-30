@@ -8,6 +8,7 @@ public class MyFirstJavaProgram {
 	
     public static void main(String []args) {
        System.out.println("Hello World"); // prints Hello World
+       System.out.println("This program will work");
        //int x = 3;
        //String name = "Brandon";
        //x = x * 17;
@@ -25,7 +26,12 @@ public class MyFirstJavaProgram {
        //javaapp.CollectionsArrayList.main(args);
        //javaapp.CollectionsHashSet.main(args);
        //System.out.println(model.IceCream());
+       //httpurlconnection.httpurlconnection(args
+       collections.CollectionsArrayList.main(args);
+       
     }
+
+    
     
 
     
