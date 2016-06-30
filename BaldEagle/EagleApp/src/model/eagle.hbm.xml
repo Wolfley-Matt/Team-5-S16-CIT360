@@ -11,7 +11,7 @@
       <id name="id" type="int" column="id">
          <generator class="native"/>
       </id>
-      <property name="find" column="state_counties" type="string"/>
+      <property name="stateCounties" column="state_counties" type="string"/>
    </class>
 </hibernate-mapping>
 
@@ -23,6 +23,6 @@
       <id name="id" type="int" column="id">
          <generator class="native"/>
       </id>
-      <property name="report" column="state_counties" type="string"/>
+      <property name="stateCounties" column="state_counties" type="string"/>
    </class>
 </hibernate-mapping>
