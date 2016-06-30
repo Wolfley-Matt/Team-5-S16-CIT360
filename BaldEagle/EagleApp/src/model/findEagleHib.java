@@ -1,11 +1,11 @@
-public class findEagle {
+public class findEagleHib {
 	private int id;
 	private String stateCounties;
 
-	public findEagle() {
+	public findEagleHib() {
 	}
 
-	public findEagle(String scount) {
+	public findEagleHib(String scount) {
 		this.stateCounties = scount;
 	}
 
