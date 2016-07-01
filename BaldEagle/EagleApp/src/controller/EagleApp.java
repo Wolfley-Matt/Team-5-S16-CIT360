@@ -2,6 +2,8 @@ package controller;
 
 import java.util.Scanner;
 
+import view.UI;
+
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -29,28 +31,16 @@ public class EagleApp {
 
 		do {
 			// Print Menu
-			System.out.println("=================================");
-			System.out.println("|   Eagle App                   |");
-			System.out.println("=================================");
-			System.out.println("| Options:                      |");
-			System.out.println("|        1. Report Eagle        |");
-			System.out.println("|        2. Find Eagle          |");
-			System.out.println("|        3. Exit                |");
-			System.out.println("=================================");
-			System.out.println("Use Number To Make Selection");
-			System.out.println("=================================");
-			Scanner scanner = new Scanner(System.in);
-
-			int choice = scanner.nextInt();
-
+			String[] options = {"Report Eagle","Find Eagle","Exit"};
+			String choice = UI.menu("Main Menu", options);
 			switch (choice) {
-			case 1:
+			case "Report Eagle":
 				view.reportEagle.report();
 				break;
-			case 2:
+			case "Find Eagle":
 				// Perform "Find Eagle" case.
 				break;
-			case 3:
+			case "Exit":
 				// Perform "Exit" case.
 				repeat = false;
 				break;
