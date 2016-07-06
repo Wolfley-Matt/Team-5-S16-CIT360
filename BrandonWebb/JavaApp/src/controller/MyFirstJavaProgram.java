@@ -60,10 +60,13 @@ public class MyFirstJavaProgram {
                //System.out.println(IceCream.getFlavor());
                break;
            case 8:
+               System.out.println("Please enter a website you would like to test");
                Scanner scanner_2 = new Scanner(System.in);
-               String input = scanner_2.nextLine();
+               String input = ("http://") + scanner_2.nextLine();
+               System.out.println(input);
                //httpurlconnection.httpurlconnection.connection("http://thewebbspot.com");
                httpurlconnection.httpurlconnection.connection(input);
+               
                break;
            case 9:
                 ThreadsExecutorsRunnables.threadsExecutorsRunnables.main(args);
