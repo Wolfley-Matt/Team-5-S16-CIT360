@@ -2,23 +2,28 @@ package view;
 
 import java.util.Scanner;
 
+/**
+*
+* @author Danny Davis
+*/
+
 public class UI {
 
 	// display menu with given titles and options
 	public static String menu(String title, String[] options) {
 		while (true) {
-			System.out.println("==================================");
+			System.out.println("=================================");
 			displayLine(title, 3);
-			System.out.println("==================================");
+			System.out.println("=================================");
 			displayLine("Options:", 3);
 			int count = 1;
 			for (String option : options) {
 				displayLine(count + ". " + option, 8);
 				count ++;
 			}
-			System.out.println("==================================");
+			System.out.println("=================================");
 			displayLine("Use Number To Make Selection",1);
-			System.out.println("==================================");
+			System.out.println("=================================");
 			Scanner scanner = new Scanner(System.in);
 
 			int choice = scanner.nextInt();
@@ -38,7 +43,7 @@ public class UI {
 		}
 		output += text;
 		int charCount = text.length() + offset;
-		while (charCount <= 31) {
+		while (charCount <= 30) {
 			output += " ";
 			charCount++;
 		}
