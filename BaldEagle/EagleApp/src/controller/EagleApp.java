@@ -17,7 +17,7 @@ import view.UI;
 public class EagleApp {
 	public static void main(String[] args) {
 		boolean repeat = true;
-		// Display introduction and menu graphics
+		// Display intr oduction and menu graphics
 		// Introduction Print
 		System.out.println("=================================");
 		System.out.println("| This application is designed  |");
@@ -32,9 +32,10 @@ public class EagleApp {
 		do {
 			// Print Menu
 			String[] options = {"Report Eagle","Find Eagle","Exit"};
-			String choice = UI.menu("Main Menu", options);
+			String choice = view.UI.menu("Main Menu", options);
 			switch (choice) {
 			case "Report Eagle":
+                            
 				view.reportEagle.report();
 				break;
 			case "Find Eagle":

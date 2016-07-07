@@ -1,3 +1,5 @@
+package model;
+
 public class reportEagleHib {
 	private int id;
 	private String stateCounties;
