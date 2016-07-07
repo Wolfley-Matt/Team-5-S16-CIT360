@@ -19,6 +19,9 @@ SET time_zone = "+00:00";
 --
 -- Database: `thewebb2_cit360`
 --
+CREATE DATABASE thewebb2_cit360;
+
+USE thewebb2_cit360;
 
 -- --------------------------------------------------------
 
