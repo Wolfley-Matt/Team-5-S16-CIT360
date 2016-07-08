@@ -15,10 +15,10 @@ public class reportEagle {
         public static void report() {
       
             //OPTION 1
+            System.out.println("What County Are You In?");
             Scanner scanner_1 = new Scanner(System.in); //Waits for User Input
             int county_choice;
             do {
-                System.out.println("What County Are You In?");
                 //This is where the counties need to be printed out to using deserialization
                 while (!scanner_1.hasNextInt()) {
                     System.out.println("That's not a number! Please enter a valid number");
