@@ -1,7 +1,5 @@
 package controller;
 
-import java.util.Scanner;
-
 import view.UI;
 
 /*
@@ -38,7 +36,7 @@ public class EagleApp {
 				view.reportEagle.report();
 				break;
 			case "Find Eagle":
-				// Perform "Find Eagle" case.
+				view.findEagle.find();
 				break;
 			case "Exit":
 				// Perform "Exit" case.
