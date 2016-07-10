@@ -17,16 +17,23 @@ public class MyFirstJavaProgram {
     */
 	
     public static void main(String []args) throws IOException {
-       System.out.println("\n Hello World, please choose an option for what you would like to do"); // prints Hello World
+       System.out.println("Hello World, please choose an option for what you would like to do\n"); // prints Hello World
        
        
-       System.out.println("\n The following are the different classes within my program");
+       System.out.println("The following are the different classes within my program");
        System.out.println("I basically want to make a page that shows each one");
-       System.out.println("What would you like to see?");
-       System.out.println(" 1. FreshJuiceTest \n 2. Beer Song \n "
-               + "3. Collections Demo \n 4. JSONSerialization \n 5. CollectionsArrayList \n 6. CollectionsHashSet \n"
-               + " 7. Under Construction \n 8. HTTPUrlConnection \n 9. Threads, Executables, Runnables \n"
-               + " 10. Under Construction \n 11. Client/Server Sockets");
+       System.out.println("What would you like to see?\n");
+       System.out.println("1. FreshJuiceTest\n"
+                        + "2. Beer Song\n"
+                        + "3. Collections Demo\n"
+                        + "4. JSONSerialization\n"
+                        + "5. CollectionsArrayList\n"
+                        + "6. CollectionsHashSet\n"
+                        + "7. Under Construction\n"
+                        + "8. HTTPUrlConnection\n"
+                        + "9. Threads, Executables, Runnables\n"
+                        + "10. Under Construction\n"
+                        + "11. Client/Server Sockets");
        Scanner scanner_1 = new Scanner(System.in);
        int choice;
        do {
