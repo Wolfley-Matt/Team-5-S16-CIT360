@@ -47,7 +47,6 @@ public class findEagle {
 			findEagles(county);
 			break;
 		case "Back to Main":
-			EagleApp.main(null);
 			break;
 		}
 	}
