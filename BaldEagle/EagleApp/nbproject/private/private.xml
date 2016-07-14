@@ -2,15 +2,6 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group>
-            <file>file:/Applications/XAMPP/xamppfiles/htdocs/Team-5-S16-CIT360/BaldEagle/EagleApp/src/controller/EagleApp.java</file>
-            <file>file:/Applications/XAMPP/xamppfiles/htdocs/Team-5-S16-CIT360/BaldEagle/EagleApp/src/model/hibernate.cfg.xml</file>
-            <file>file:/Applications/XAMPP/xamppfiles/htdocs/Team-5-S16-CIT360/BaldEagle/EagleApp/src/model/databaseConnection.java</file>
-            <file>file:/Applications/XAMPP/xamppfiles/htdocs/Team-5-S16-CIT360/BaldEagle/EagleApp/src/model/jsonreporteagle.json</file>
-            <file>file:/Applications/XAMPP/xamppfiles/htdocs/Team-5-S16-CIT360/BaldEagle/EagleApp/src/model/hibernate.java</file>
-            <file>file:/Applications/XAMPP/xamppfiles/htdocs/Team-5-S16-CIT360/BaldEagle/EagleApp/src/view/findEagle.java</file>
-            <file>file:/Applications/XAMPP/xamppfiles/htdocs/Team-5-S16-CIT360/BaldEagle/EagleApp/src/model/readJSON.java</file>
-            <file>file:/Applications/XAMPP/xamppfiles/htdocs/Team-5-S16-CIT360/BaldEagle/EagleApp/src/model/eagle.hbm.xml</file>
-        </group>
+        <group/>
     </open-files>
 </project-private>
