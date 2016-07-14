@@ -8,7 +8,6 @@ package view;
 import controller.EagleApp;
 
 /**
- * hey
  * 
  * @author Danny Davis
  */
