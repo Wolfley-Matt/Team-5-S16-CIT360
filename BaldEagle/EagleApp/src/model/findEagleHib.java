@@ -1,3 +1,5 @@
+package model;
+
 public class findEagleHib {
 	private int id;
 	private String stateCounties;

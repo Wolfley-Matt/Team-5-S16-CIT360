@@ -1,4 +1,6 @@
 package view;
+
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 /**
@@ -7,7 +9,7 @@ import java.util.Scanner;
  */
 
 public class UI {
-	
+
 	private static final int lineLength = 50;
 
 	// display menu with given titles and options
@@ -64,29 +66,36 @@ public class UI {
 		displayLine("Use Number To Make Selection", 1);
 		printLineBreak();
 		Scanner scanner = new Scanner(System.in);
-
-		int choice = scanner.nextInt();
+		int choice;
+		try {
+			choice = scanner.nextInt();
+		} catch (InputMismatchException e) {
+			printLineBreak();
+			displayLine("Please enter a number.", 1);
+			return null;
+		}
 		if (choice > options.length || choice <= 0) {
-			System.out.println("Please enter a number between 1 and " + options.length);
+			printLineBreak();
+			displayLine("Please enter a number between 1 and " + options.length, 1);
 			return null;
 		} else {
 			return options[choice - 1];
 		}
 	}
-	
-	//simply display text;
-	public static void display(String[] output){
+
+	// simply display text;
+	public static void display(String[] output) {
 		printLineBreak();
-		for(String line:output){
-			displayLine(line,1);
+		for (String line : output) {
+			displayLine(line, 1);
 		}
 		printLineBreak();
 	}
-	
-	//print a line of ============
-	private static void printLineBreak(){
+
+	// print a line of ============
+	private static void printLineBreak() {
 		String output = "";
-		for(int i = 0;i<lineLength+3;i++){
+		for (int i = 0; i < lineLength + 3; i++) {
 			output += "=";
 		}
 		System.out.println(output);

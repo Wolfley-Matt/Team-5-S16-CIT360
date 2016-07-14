@@ -8,7 +8,6 @@ package view;
 import controller.EagleApp;
 
 /**
- * hey
  * 
  * @author Danny Davis
  */
@@ -47,7 +46,6 @@ public class findEagle {
 			findEagles(county);
 			break;
 		case "Back to Main":
-			EagleApp.main(null);
 			break;
 		}
 	}
