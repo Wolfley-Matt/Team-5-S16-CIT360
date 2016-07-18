@@ -5,7 +5,7 @@
  */
 package learning_code;
 
-import controller.MyFirstJavaProgram;
+import main.MyFirstJavaProgram;
 import java.io.IOException;
 
 /**

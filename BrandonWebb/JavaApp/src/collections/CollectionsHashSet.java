@@ -10,11 +10,15 @@ package collections;
  * @author brandonmichaelwebb
  */
 
+import main.MyFirstJavaProgram;
+import static delay.delay.delay;
+import java.io.IOException;
 import java.util.HashSet;
+import java.util.Iterator;
 
 public class CollectionsHashSet {
    
-    public static void main (String[] args) {
+    public static void main (String[] args) throws IOException {
     System.out.println("This class implements the Set interface, backed by a hash table (actually a HashMap instance). "
             + "\nIt makes no guarantees as to the iteration order of the set; in particular, it does not guarantee that the order will remain constant over time."
             + "\nThis class permits the null element. This class is not synchronized."
@@ -50,7 +54,15 @@ public class CollectionsHashSet {
 
       //Displaying HashSet elements
       System.out.println("\n"+hset);
-    
-    
+      
+      System.out.println("On top of this I can iterate through the HastSet as well");
+        for (Iterator<String> it = hset.iterator(); it.hasNext();) {
+            String s = it.next();
+            System.out.println(s);
+            delay(600);
+        }
+        
+        delay.delay.delay(1000);
+        MyFirstJavaProgram.main(args);
     }
 }

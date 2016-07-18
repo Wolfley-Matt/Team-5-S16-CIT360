@@ -4,6 +4,7 @@
  * and open the template in the editor.
  */
 package collections;
+import static delay.delay.delay;
 import java.util.*;
 /**
  *
@@ -45,6 +46,13 @@ public class CollectionsDemo {
       System.out.println(" Set Elements - With Sets in Java no duplicates elements are allowed");
       System.out.print("\t" + s1);
       System.out.println();
+      
+        System.out.println("On top of this I can iterate through the HastSet as well");
+        for (Iterator<String> it = s1.iterator(); it.hasNext();) {
+            String s = it.next();
+            System.out.println(s);
+            delay(600);
+        }
 
 
       //HashMap
@@ -57,6 +65,8 @@ public class CollectionsDemo {
       System.out.println(" Map Elements");
       System.out.print("\t" + m1);
       System.out.println();
+      
+         
 
    }
 }

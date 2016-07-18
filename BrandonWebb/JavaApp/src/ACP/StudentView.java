@@ -3,27 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package JUnit;
-
+package ACP;
 
 /**
  *
  * @author brandonmichaelwebb
  */
-
-
-
-
-public class junit {
-    public int add(String s1, String s2) {
-        int int1 = Integer.parseInt(s1);
-        int int2 = Integer.parseInt(s2);
-        return int1 + int2;
-        
-        
-    }
+public class StudentView {
+   public void show(){
+      System.out.println("Displaying Student Page");
+   }
 }
-
-
-
-

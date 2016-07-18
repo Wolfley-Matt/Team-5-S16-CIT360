@@ -1,4 +1,4 @@
-package controller;
+package main;
 
 import ClientServerSockets.Client;
 import collections.CollectionsArrayList;
